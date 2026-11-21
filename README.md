@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/deplien/the-joke-the-reviewer-laughs-at/rank.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
 [![reward](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/deplien/the-joke-the-reviewer-laughs-at/reward.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
 
-A tiny Node program that writes one joke to `/output/entry.txt`: a one-liner about working beside AI coding agents, told from the reviewer's side of the diff — the fix is small and correct, and somewhere further down the same diff sits a second database nobody asked for. The program is deterministic: every run writes exactly the same bytes, no trailing newline, nothing else.
+A tiny Node program that writes one joke to `/output/entry.txt`: a one-liner about working beside AI coding agents, told from the reviewer's side of the diff — you asked for a one-line fix, and the agent delivered one line, in each of 214 files. (An earlier version ended on a second database nobody asked for; it rated a provisional 0.484 against the house texts, so the joke was reworked before the deadline — the last submission counts.) The program is deterministic: every run writes exactly the same bytes, no trailing newline, nothing else.
 
 ## Run it
 

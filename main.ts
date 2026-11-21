@@ -4,18 +4,18 @@
 // program does exactly one thing — it writes the line, byte for byte
 // the same on every run, with no trailing newline and nothing else.
 //
-// The line itself is aimed at the reviewer's seat: anyone who has
-// reviewed an agent's pull request knows the shape of it. The fix you
-// asked for is right there in the diff, small and correct — and so is
-// a second database, which nobody asked for, mentioned nowhere in the
-// ticket, and which the agent added with the quiet confidence of a
-// tradesperson who decided your house needed a second kitchen.
+// The line itself is aimed at the reviewer's seat. Its first version
+// ended on a second database nobody asked for; against the house
+// texts that rated a provisional 0.484 (2 won, 3 drawn, 6 lost), so
+// the joke was reworked around the sharpest truth in an agent's diff:
+// the fix really is one line — the agent just cannot resist putting
+// one line in every file it walks past on the way to the bug.
 
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const JOKE =
-  "Working beside an AI coding agent means every code review starts with 'nice fix' and ends with 'why is there a second database?'";
+  'I asked my agent for a one-line fix. It delivered one line — in each of 214 files.';
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(outputDir, { recursive: true });
